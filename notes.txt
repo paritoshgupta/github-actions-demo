@@ -1,0 +1,33 @@
+- The two critical pillars of DevOps are Continuous Integration (CI) and Continuous Delivery (CD)
+    - CI involves merging code into a source control repository that automatically check the code's quality through testing
+    - CD is when code changes are automatically tested and deployed, either to a staging or production environment.
+
+- MLOps: The Process of automating ML using Devops methodologies is Devops
+
+    - 25% Devops
+    - 25% Data (ETL, ELT, Processing, Pipelines, EDA, Versioning, Drift)
+    - 25% Model (Creation, Validation, Deployment, Monitoring, Continuous Training)
+    - 25% Business
+
+- Additional Notes:
+    - The reason Data Lake is helpful to build automation around including Machine Learning is the "near infinite" scale it 
+        provides in terns of I/O coupled with its high durability and avaibility. Example: AWS S3
+
+
+- The Feedback loop of MLOps includes the following:
+    - Train and Retrain Model (1)
+    - Deploy + Version
+    - Audit Trail and Artifacts
+    - Monitor
+    - Repeat to (1)
+
+- Additional Notes:
+    - Using AWS Cloud9 environment is a more comprehensive way to develop ML solutions. 
+    - Allows to make web requests from console to deployed services and has deep integration with AWS Lambda. 
+    - Cloud computing harnesses near-infinite compute and data
+    - A developer will run testing and linting locally to assist with keeping software quality high; 
+    - A CI/CD pipeline runs these quality-control checks in an external environment to ensure the application is working before its release into another production.
+    - Python has limitations inherent to the language, including lack of true threads, lack of a JIT (Just in Time) compiler and lack of inference found in C#; 
+    - With Cloud computing, these limitations does not bind to many probelms;
+    - Hence Python got lucky because of Cloud computing and Containers :p :D
+    - Containerized technology like Kubernetes does the heavy lifting of building distributed systems, so python threads become irrelevant
