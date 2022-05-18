@@ -22,6 +22,7 @@
     - Repeat to (1)
 
 - Additional Notes:
+    - Machine Learning is the ability of computers to perform tasks without explicit programming. They do this by "learning" from data.
     - Using AWS Cloud9 environment is a more comprehensive way to develop ML solutions. 
     - Allows to make web requests from console to deployed services and has deep integration with AWS Lambda. 
     - Cloud computing harnesses near-infinite compute and data
@@ -31,3 +32,6 @@
     - With Cloud computing, these limitations does not bind to many probelms;
     - Hence Python got lucky because of Cloud computing and Containers :p :D
     - Containerized technology like Kubernetes does the heavy lifting of building distributed systems, so python threads become irrelevant
+    - Supervised learning: when "labels" are known and the model learns from historical data
+    - Unsupervised learning works to discover "labels"
+    - Reinforcement learning, an agent explores an environment to learn how to perform tasks. 
