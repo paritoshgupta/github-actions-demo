@@ -35,3 +35,16 @@
     - Supervised learning: when "labels" are known and the model learns from historical data
     - Unsupervised learning works to discover "labels"
     - Reinforcement learning, an agent explores an environment to learn how to perform tasks. 
+
+- Containers vs VMs
+    - Containers are typically mesaured by MBs. They don't package anything bigger than an app and all the files necessary to run, and are often 
+        used to package single functions that perform specific tasks (known as microservice). The lightweight of containers and their shared OS - makes them very easy to move
+        across multiple environments.
+    - VMS are typically measured by GBs. They usually contain their own OS
+    - Containers consist of multiple layers, and these layers can be used or reused in other containers. These prevents a base layer of 10MB getting downloaded every time 
+        for each container that uses it. In practice, you will download 10 MB layer once and reuse it many times. 
+    - In VMs, doesn't matter if they all have the same fies, you are required to download them as a whole. 
+    - Docker brought easy collaboration and sharing through a Registry.
+    - Registeries allow developers to push their changes to a central location where other can then pull these changes and run them locally. 
+    - *Microservice* is an application that is fully decoupled from system requirements like databases and can be run independently.
+
